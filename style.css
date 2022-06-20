@@ -93,7 +93,7 @@ header {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 32px;
   color: rgba(0, 0, 0, 0.7);
   width: 480px;
@@ -264,6 +264,7 @@ footer {
   .secondary_line {
     width: -webkit-fill-available;
     text-align: center;
+    padding: 7px;
   }
   .main_line {
     text-align: center;
