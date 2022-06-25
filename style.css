@@ -11,13 +11,15 @@
 .header {
   width: 100%;
   background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
+  background: white;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 250px;
+  /* margin: 0 250px; */
+  margin: 0px 159px;
 }
 
 .explore_btn {
@@ -39,6 +41,71 @@ header {
 .main_heading {
   text-align: right;
 }
+/*  */
+
+.banner_text {
+  /* background: linear-gradient(86.14deg, rgba(241, 85, 92, 0.88) 0%, #622fde 122.29%); */
+  width: 100%;
+}
+
+.col_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para_left {
+  width: 100%;
+  /* max-width: 500px; */
+  padding: 7rem 0;
+}
+
+.para_left h6 {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.para_left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 30px;
+
+  color: #ffffff;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.img_banner img {
+  max-width: 100%;
+  width: 300px;
+  object-fit: cover;
+}
+
+.pqr {
+  width: 100%;
+  /* max-width: 1000px;
+  margin: auto;
+  padding: 77px 0px; */
+}
+
+.banner {
+  background-size: cover;
+  /* background-position: center; */
+  min-height: 100%;
+  position: relative;
+  border-radius: 3px;
+  width: 100%;
+  /* /* margin-left: auto; */
+}
+
+/*  */
 
 .middle_line {
   border: 4px solid #ffb878;
@@ -65,9 +132,7 @@ header {
 
 .it_works {
   padding: 0px 20px 0 0;
-  position: absolute;
-  right: 0;
-  top: 10rem;
+  margin-top: -15px;
 }
 
 .main_div {
@@ -253,6 +318,9 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .para_left h6 {
+    font-size: 40px;
+  }
   header {
     margin: 0 5px;
   }
@@ -278,6 +346,17 @@ footer {
   .shop_right {
     text-align: center;
   }
+  /*  */
+  .col_1 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .para_left {
+    text-align: center;
+  }
+  /*  */
+
   /* .want_more {
     padding: 20px 0;
   } */
