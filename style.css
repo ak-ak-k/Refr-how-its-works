@@ -318,6 +318,12 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .banner_text {
+    background: linear-gradient(86.14deg, rgba(241, 85, 92, 0.88) 0%, #622fde 122.29%);
+  }
+  .banner {
+    background-size: contain;
+  }
   .para_left h6 {
     font-size: 40px;
   }
