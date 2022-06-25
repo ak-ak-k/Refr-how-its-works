@@ -303,18 +303,22 @@ footer {
 }
 
 .refr_tech {
-  margin-left: -23rem;
+  cursor: pointer;
+  width: 100%;
+  max-width: 425px;
 }
 
 .imgs_section {
   display: flex;
   align-items: center;
   gap: 35px;
+  cursor: pointer;
 }
 
 .svgs_logo {
   display: flex;
   gap: 15px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
@@ -376,43 +380,9 @@ footer {
     flex-direction: column;
   }
   .refr_tech {
-    margin: 0;
+    width: 100%;
+    text-align: center;
   }
   .explore_btn {
-  }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .middle_line {
-    width: 60%;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .middle_line {
-    width: 62%;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .middle_line {
-    width: 83%;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .middle_line {
-    width: 85%;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1024px) {
-  .middle_line {
-    width: 89%;
   }
 }
