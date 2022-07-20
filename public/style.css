@@ -56,11 +56,16 @@ header {
 
 .banner {
   position: relative;
+  height: 400px;
+  background: lightgray;
+  width: 100%;
 }
 
 .banner img {
-  width: -webkit-fill-available;
-  height: 300px;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: 70% 35%;
 }
 
 .para_left {
@@ -340,6 +345,13 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .banner {
+    height: auto;
+    background-color: #ffffff;
+  }
+  .banner img {
+    object-fit: contain;
+  }
   .para_left h6 {
     font-size: 40px;
   }
