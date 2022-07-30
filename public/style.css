@@ -65,7 +65,7 @@ header {
   width: inherit;
   height: inherit;
   object-fit: cover;
-  object-position: 70% 35%;
+  /* object-position: 70% 35%; */
 }
 
 .para_left {
