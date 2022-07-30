@@ -37,6 +37,20 @@ header {
   color: #ffffff;
 }
 
+.join_btn {
+  background-color: #111 !important;
+  padding: 15px 30px 15px 30px;
+  border-radius: 100px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  animation: logoImg 0.9s cubic-bezier(0.8, 0, 0.12, 0.99);
+}
+
 /*  */
 .main_heading {
   text-align: right;
@@ -408,5 +422,31 @@ footer {
     text-align: center;
   }
   .explore_btn {
+    min-height: 30px;
+    min-width: 80px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+    padding: 10px;
+  }
+  .join_btn {
+    background-color: #111 !important;
+    min-height: 30px;
+    min-width: 130px;
+    border-radius: 100px;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin-right: 6px;
+    padding: 10px;
   }
 }
