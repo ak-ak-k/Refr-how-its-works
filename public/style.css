@@ -239,7 +239,7 @@ margin-left: auto;
 }
 
 .main_img {
-  width: 16rem;
+  width: 18vw;
 }
 
 .want_more {
@@ -449,5 +449,8 @@ footer {
     cursor: pointer;
     margin-right: 6px;
     padding: 10px;
+  }
+  .main_img {
+    width: 8rem;
   }
 }
